@@ -1,0 +1,16 @@
+.sub-pixel-container {
+  width: 10pt;
+  height: 25.5pt;
+
+  &.red-sub-pixel {
+    background-color: rgb(255, 0, 0);
+  }
+
+  &.green-sub-pixel {
+    background-color: rgb(0, 255, 0);
+  }
+
+  &.blue-sub-pixel {
+    background-color: rgb(0, 0, 255);
+  }
+}
