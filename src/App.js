@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Pixel from "./components/Pixel.Component";
+import Display from "./components/Display.Component";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="display">
-          <Pixel />
+          <Display width={5} height={5} />
         </div>
       </header>
     </div>
